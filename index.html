@@ -278,9 +278,3 @@ window.addEventListener('scroll',()=>{
 </script>
 </body>
 </html>
-"""
-html = html.replace("__PHONE__", phone).replace("__PHONE_DISPLAY__", "+7 918 520-86-78").replace("__PHONE_CLEAN__", phone_clean)
-path = '/home/user/output/evgeny.html'
-with open(path,'w',encoding='utf-8') as f:
-    f.write(html)
-print(path, len(html))
